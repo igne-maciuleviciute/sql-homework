@@ -1,1 +1,1 @@
-Duomenu baze: igne_db_6.sql
+Duomenu bazes kopija: igne_db_6.sql

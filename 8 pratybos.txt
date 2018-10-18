@@ -1,1 +1,13 @@
-Duomenu bazes atnaujinimo skriptas yra: createDb.sh failas 
+Duomenu bazes atnaujinimo skriptas yra: createDb.sh failas
+
+Pirmoje eiluteje: 
+mysql -u root -p -e "create database ignes_nd_db";
+
+mes sukuriame nauja duombaze pavadinimu ignes_nd_db. 
+
+
+Antroje eiluteje: 
+
+mysql -u root -p ignes_nd_db < igne_db_7.sql;
+
+mes suimportuojame visus duomenis is ignes_db_7.sql i ignes_nd_db duombaze. 

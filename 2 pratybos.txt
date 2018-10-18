@@ -1,6 +1,6 @@
 1 uzduotis. 
-insert into Authors set name = “Igne Maciuleviciute”;
-insert into Authors set name = “Kazkas Kazkas”;
+insert into Authors set name = “Igne Maciuleviciute”, authorId = 8;
+insert into Authors set name = “Kazkas Kazkas”, authorId = 9;
 
 2 uzduotis.
 insert into Books set title = "kazkas", authorId = 8, year = 2007;
