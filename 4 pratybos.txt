@@ -1,0 +1,8 @@
+1 uzduotis.
+insert into authors set authorId = 8, name = "John";
+select authors.name from authors left join books on books.authorId = authors.authorId;
+select authors.name, count(books.title) as KnyguSk from authors left join books on books.authorId = authors.authorId group by name;
+
+2 uzduotis.
+delete from authors where authorId not in (select distinct authorId from books where authorId is not null);
+

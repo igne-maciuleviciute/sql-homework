@@ -1,0 +1,1 @@
+Duomenu baze: igne_db_6.sql

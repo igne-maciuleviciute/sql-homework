@@ -1,0 +1,10 @@
+1 uzduotis. 
+insert into Authors set name = “Igne Maciuleviciute”;
+insert into Authors set name = “Kazkas Kazkas”;
+
+2 uzduotis.
+insert into Books set title = "kazkas", authorId = 8, year = 2007;
+insert into Books set title = “kazkas1”, authorId = 9, year = 2010; 
+
+3 uzduotis.
+UPDATE Authors SET name = "Kazkas Kazkoks" WHERE name = “Kazkas Kazkas";

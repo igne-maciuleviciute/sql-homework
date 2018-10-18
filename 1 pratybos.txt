@@ -1,0 +1,11 @@
+1 uzduotis. 
+select * from Books;
+
+2 uzduotis.
+select * from Books order by title asc;
+
+3 uzduotis.
+select count(*) as KnyguSk from books;
+
+
+

@@ -1,0 +1,8 @@
+1 uzduotis.
+(
+    Select `authors`.`authorId`, `authors`.`authorId` from `authors`
+)
+Union
+(
+    Select `books`.`authorId`, `books`.`title` from `books
+)

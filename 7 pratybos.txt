@@ -1,0 +1,14 @@
+1 uzduotis: 
+Pakeitimus galima matyti sioje isseksportuotos duombazes igne_db_7.sql faile. 
+
+2 uzduotis: 
+Sutvarkytus duomenu bazes duomenis galima matyti sioje isseksportuotos duombazes igne_db_7.sql faile
+ir palyginti pakeitimus su buvusia duombaze - igne_db_6.sql 
+
+3 uzduotis:
+select distinct books.title as BookTitle, GROUP_CONCAT(authors.name) as Authors from booksauthors left join authors on authors.authorId = booksauthors.authorId left join books on books.bookId = booksauthors.bookId group by books.title;
+
+4 uzduotis:
+Sutvarkyta knygu lentele galima matyti sioje isseksportuotos duombazes igne_db_7.sql faile ir palyginti pakeitimus su buvusia duombaze - igne_db_6.sql 
+Buvo: `title` varchar(255) CHARACTER SET latin1 COLLATE latin1_general_ci NOT NULL,
+Dabar: `title` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL
